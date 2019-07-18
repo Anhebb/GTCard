@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/indexPage/index",
+    "pages/initialPage/initial",
+    "pages/editCardPage/editCard",
+    "pages/myCardPage/myCard",
+    "pages/modifyMyCardPage/modifyMyCard",
+    "pages/shareCodePage/shareCode",
+    "pages/sharePage/sharePage",
+    "pages/cardTypePage/cardTypePage",
+    "pages/myCardColPage/myCardCol"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "给他卡",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

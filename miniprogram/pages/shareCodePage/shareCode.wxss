@@ -1,0 +1,98 @@
+.contain{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:750rpx;
+  height:1207rpx;
+  background:rgba(249,249,249,1);
+  z-index: 2;
+}
+.head{
+  width: 634rpx;
+  height: 974rpx;
+  z-index: 1;
+}
+.imagebg{
+  margin-top: 25rpx;
+  height: 974rpx;
+  position: absolute;
+}
+.item-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 66rpx;
+}
+.item-head image{
+  width: 136rpx;
+  height: 136rpx;
+  border-radius: 50%;
+}
+.text_1{
+  margin-top: 26rpx;
+  height:34rpx;
+  font-size:36rpx;
+  font-family:SourceHanSansCN-Medium;
+  font-weight:bold;
+  color:rgba(51,51,51,1);
+}
+.text_2{
+  margin-top: 24rpx;
+  height:21rpx;
+  font-size:22rpx;
+  font-family:SourceHanSansCN-Normal;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+}
+.item-body{
+  margin-top: 85rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-body image{
+  width: 308rpx;
+  height: 308rpx;
+}
+.item-foot{
+  margin-top: 150rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-foot text{
+  height:21rpx;
+  font-size:22rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:600;
+  color:rgba(102,102,102,1);
+  margin-bottom: 18rpx;
+}
+.foot{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foot view{
+  width:400rpx;
+  height:88rpx;
+  background-color: #FCAA3D;
+  margin-top: 80rpx;
+  box-shadow:0rpx 0rpx 30rpx 0rpx rgba(183, 20, 113, 0.35);
+  border-radius:44rpx;
+}
+.foot view image{
+  margin-top: 25rpx;
+  margin-left: 100rpx;
+  width: 25rpx;
+  height: 28rpx;
+}
+.foot view text{
+  margin-left: 20rpx;
+  width:139rpx;
+  height:27rpx;
+  font-size:28rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+} 

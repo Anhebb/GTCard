@@ -1,0 +1,119 @@
+/* components/cardstyle1.wxss */
+.item-contain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:680rpx;
+  height:420rpx;
+  background:linear-gradient(135deg,rgba(239,159,65,1) 0%,rgba(233,178,31,1) 100%);
+  box-shadow:0rpx 0rpx 20rpx 0rpx rgba(0, 0, 0, 0.1);
+  border-radius:10rpx;
+  overflow: hidden;
+  padding-right: 30rpx;
+
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  margin-top: 55rpx;
+}
+
+.text1{
+height:43rpx;
+font-size:45rpx;
+font-family:SourceHanSansCN-Medium;
+font-weight:500;
+color:rgba(255,255,255,1);
+}
+
+.text2{
+height:21rpx;
+font-size:22rpx;
+font-family:SourceHanSansCN-Normal;
+font-weight:400;
+color:rgba(255,255,255,1);
+margin-left: 28rpx;
+}
+
+.right image{
+  width: 102rpx; 
+  height: 102rpx;
+  margin-top: 28rpx;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-right: -75rpx;
+}
+
+.test1 {
+  position: absolute;
+  top: 28rpx;
+  right: 0rpx;
+  width: 102rpx;
+  height: 102rpx;
+  border-radius: 50%;
+  box-shadow:  0 0 40rpx rgb(226, 198, 38);
+}
+
+.test2 {
+  position: absolute;
+  top: 6rpx;
+  right: -23rpx;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  box-shadow:  0 0 40px rgba(241, 211, 36, 0.836);
+}
+
+.test3 {
+  position: absolute;
+  top: -29rpx;
+  right: -60rpx;
+  width: 220rpx;
+  height: 220rpx;
+  border-radius: 50%;
+  box-shadow:  0 0 40px rgba(236, 202, 7, 0.836);
+}
+
+/* .right::before {
+  contain: "";
+  width: 15rpx;
+  height: 15rpx;
+  position: absolute;
+  top: 120rpx;
+  right: 120rpx;
+  background-color: red
+} */
+
+.view2{
+  margin-top: 29rpx;
+}
+
+.text3{
+  height:27rpx;
+  font-size:28rpx;
+  font-family:SourceHanSansCN-Medium;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+}
+
+.view3{
+  display: flex;
+  flex-direction: column;
+  margin-top: 27rpx;
+}
+.text4{
+height:20rpx;
+font-size:20rpx;
+font-family:SourceHanSansCN-Normal;
+font-weight:400;
+color:rgba(255,255,255,1);
+margin-bottom: 18rpx;
+}
+

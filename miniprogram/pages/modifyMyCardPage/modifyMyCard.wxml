@@ -1,0 +1,41 @@
+<view class="item-contain">
+
+    <view class="item-top">
+
+        <view class="item-card">
+           <cardstyle1 name="{{cardInfo.name}}" job="{{cardInfo.position}}" company="{{cardInfo .company}}" address="{{cardInfo.address}}" phone="{{cardInfo.phone}}" email="{{cardInfo.email}}" net="{{cardInfo.website}}" photo="{{cardInfo.avatarUrl}}"  changeable="{{changeable}}" wx:if="{{cardstyle == '0'}}"></cardstyle1>
+           <cardstyle2 name="{{cardInfo.name}}" job="{{cardInfo.position}}" company="{{cardInfo .company}}" address="{{cardInfo.address}}" phone="{{cardInfo.phone}}" email="{{cardInfo.email}}" net="{{cardInfo.website}}" photo="{{cardInfo.avatarUrl}}"  changeable="{{changeable}}" wx:if="{{cardstyle == '1'}}"></cardstyle2>
+        </view>
+
+    </view>
+
+    <view class="item-middle">
+
+        <view class="middle-tltle">
+          <text class="b-tittle">您的资料</text>
+          <text class="s-tittle">(点击头像更换照片)</text>
+        </view>
+
+        <form bindsubmit="handleSubmitInfo" class="form-width">
+          <view class="edit" >
+              <text class="edit-text" space="emsp">姓  名<text class="must">*</text></text>
+              <input type="text" class="edit-input" placeholder="请填写您的真实姓名" value="{{cardInfo.name}}" name="name" id="name" bindinput="handleInput"></input>
+          </view>
+
+          <view class="edit" >
+              <text class="edit-text" space="emsp">手  机<text class="must">*</text></text>
+              <input type="text" class="edit-input" placeholder="请填写您的手机号" value="{{cardInfo.phone}}" name="phone" id="phone" bindinput="handleInput"></input>
+          </view>
+
+          <view class="edit" wx:for-items="{{List}}" wx:for-item="item" wx:key="">
+              <text space="emsp" class="edit-text">{{item.name}}</text>
+              <input type="text" class="edit-input"  placeholder="{{item.placeholder}}" value="{{item.value}}" name="{{item.attribute}}" id="{{item.attribute}}" bindinput="handleInput"></input>
+          </view>
+
+          <view class="saveButton">
+            <button class="item-btn" form-type="submit">保存</button>
+          </view>
+        </form>
+    </view>
+</view>
+

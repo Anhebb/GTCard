@@ -1,0 +1,11 @@
+<view class="item-contain">
+<view class="warn-text">
+<text> GTCard小程序</text>
+<text>正在全速检测您的登录状态</text>
+<text>请稍候(0.0)</text>
+</view>
+<view class="wait-photo">
+  <image src="../../images/index/2.gif"></image>
+</view>
+
+</view>

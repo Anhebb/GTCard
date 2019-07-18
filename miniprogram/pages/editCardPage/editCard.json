@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+   "cardstyle1": "../../components/cardstyle1/cardstyle1"
+  },
+  "navigationBarTitleText": "编辑名片"
+}

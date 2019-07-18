@@ -1,0 +1,42 @@
+/* miniprogram/pages/cardTypePage/cardTypePage.wxss */
+.item-contain {
+  height: 1000rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.type1 {
+  position: relative;
+    overflow: hidden;
+}
+.type1-choose {
+  width: 270rpx;
+  padding-left: 45rpx;
+  background-color: black;
+  font-size: 38rpx;
+  top: 30rpx;
+  left: 30rpx;
+  color: #E7CD9A;
+  transform: translate(-100rpx,-20rpx) rotate(-45deg);
+  position:absolute;
+
+}
+
+.type2 {
+  position: relative;
+    overflow: hidden;
+}
+.type2-choose {
+  width: 270rpx;
+  padding-left: 20rpx;
+  background-color: black;
+  font-size: 40rpx;
+  top: 30rpx;
+  left: 30rpx;
+  color: #E7CD9A;
+  transform: translate(500rpx,40rpx) rotate(45deg);
+  position:absolute;
+
+}

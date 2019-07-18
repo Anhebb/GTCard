@@ -1,0 +1,24 @@
+<view class="contain">
+  <image src='../../images/shareCodePage/矩形 1.png' class='imagebg'></image>
+  <view class="head">
+    <view class="item-head">
+      <image src="{{avatarUrl}}"></image>
+      <text class="text_1">{{name}}</text>
+      <text class="text_2">{{position}}</text>
+    </view>
+    <view class="item-body">
+      <image src="{{shareCodeImage}}"></image>
+    </view>
+    <view class="item-foot">
+      <text>扫一扫上边的二维码图片</text>
+      <text>收藏我的名片</text>
+    </view>
+  </view>
+
+  <view class="foot">
+    <view bindtap="handleSaveImage">
+      <image src="../../images/shareCodePage/xz.png"></image>
+      <text>保存到手机</text>
+    </view>
+  </view>
+</view>

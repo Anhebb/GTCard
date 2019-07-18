@@ -1,0 +1,147 @@
+/* miniprogram/pages/minePage/minePage.wxss */
+.item-contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background:rgba(255,255,255,1);
+}
+.item-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30rpx 0;
+}
+
+.popularity image {
+  width: 26rpx;
+  height: 33rpx;
+}
+.popularity text {
+  font-size: 26rpx;
+  line-height: 40rpx;
+  font-family:SourceHanSansCN-Regular;
+  color: #B6B6B6;
+  margin-left: 12rpx;
+}
+
+.collection image {
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.collection text {
+  font-size: 26rpx;
+  line-height: 40rpx;
+  font-family:SourceHanSansCN-Regular;
+  color: #B6B6B6;
+   margin-left: 12rpx;
+}
+.bottom-collection {
+  width: 39rpx;
+  height: 34rpx;
+}
+
+/* .card-collection {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+} */
+
+.card-collection text {
+  font-size: 26rpx;
+  line-height: 40rpx;
+  font-family:SourceHanSansCN-Regular;
+  color: #1082FF;
+   margin-left: 12rpx;
+}
+.bottom-arrow {
+  width: 12px;
+  height: 10px;
+   margin-left: 12rpx;
+}
+
+.bg {
+  height: 35rpx;
+  width: 750rpx;
+  background-color: #F9F9F9
+}
+
+.item-middle {
+  display: flex;
+  flex-direction: column; 
+}
+
+.edit-card,
+.card-style,
+.card-code{
+  width: 600rpx;
+  height: 110rpx;
+  border-bottom: 2rpx solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-card image {
+width: 22rpx;
+height: 25rpx
+}
+.card-style image {
+width: 26rpx;
+height: 21rpx
+}
+.card-code image{
+ width: 26rpx;
+height: 25rpx
+}
+
+.edit-card text,
+.card-style text,
+.card-code text{
+  font-size:16px;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(102,102,102,1);
+line-height:40px; 
+margin-left: 14rpx;
+}
+.middle-arrow {
+  width:12px;
+height:20px;
+background:rgba(221,221,221,1);
+}
+
+.item-foot {
+  width: 750rpx;
+  height: 350rpx;
+  background-color: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.share-btn {
+  width:400rpx;
+  height:88rpx;
+  background-color: #F7A63C;
+  border-radius:44px;
+  color: #fff;
+  box-shadow:0rpx 0rpx 30rpx 0rpx rgba(183, 20, 113, 0.35);
+}
+
+
+.share-btn image {
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 12rpx;
+}
+

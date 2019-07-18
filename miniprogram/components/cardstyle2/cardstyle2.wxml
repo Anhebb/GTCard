@@ -1,0 +1,39 @@
+<view class="contain"> 
+  <view class="left"> 
+    <image src='{{photo}}' bindtap="{{changeable?'handleChooseAvatar':''}}"></image> 
+  </view> 
+ 
+  <view class="right"> 
+      <text class="text_1">{{name}}</text> 
+      <view class="view_1"> 
+        <text class="text_2">{{job}}</text> 
+        <text class="text_3">{{company}}</text>  
+      </view> 
+       
+ 
+      <view class="view_2"> 
+      <view class="view_3"> 
+        <image src='../../images/cardstyle2/4.png'></image> 
+        <text>{{address}}</text> 
+      </view> 
+ 
+      <view class="view_3"> 
+        <image src='../../images/cardstyle2/3.png'></image> 
+        <text>{{phone}}</text> 
+      </view> 
+ 
+      <view class="view_3"> 
+        <image src='../../images/cardstyle2/2.png'></image> 
+        <text>{{email}}</text> 
+      </view> 
+ 
+      <view class="view_3"> 
+        <image src='../../images/cardstyle2/1.png'></image> 
+        <text>{{net}}</text> 
+      </view> 
+    </view> 
+   </view>  
+</view> 
+ 
+<!-- <view class="promotion-contain2"> 
+</view> -->

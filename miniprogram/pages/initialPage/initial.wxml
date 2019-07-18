@@ -1,0 +1,15 @@
+<view class="contain">
+  <view class="head">
+    <text class="text1">{{text1}}</text>
+    <text class="text2">{{text2}}</text>
+  </view>
+
+  <view class="body">
+    <image src="{{img1}}"></image>
+  </view>
+
+  <view class="foot">
+    <button bindtap="goToCreateCard"><text>{{text3}}</text></button>
+    <image src="{{img2}}"></image>
+  </view>
+</view>

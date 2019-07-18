@@ -1,0 +1,30 @@
+<view class="item-contain">
+
+  <view class="left">
+
+    <view class="view1">
+      <text class="text1">{{name}}</text>
+      <text class="text2">{{job}}</text>
+    </view>
+      
+      <view class="view2">
+        <text class="text3">{{company}}</text>
+      </view>
+      
+      <view class="view3">
+        <text class="text4">地址：{{address}}</text>
+        <text class="text4">手机：{{phone}}</text>
+        <text class="text4">邮箱：{{email}}</text>
+        <text class="text4">官网：{{net}}</text>
+      </view> 
+
+  </view>
+
+  <view class="right">
+   
+    <view class="test1"></view>
+    <view class="test2"></view>
+    <view class="test3"></view>
+     <image src="{{photo}}" bindtap="{{changeable?'handleChooseAvatar':''}}"></image>
+  </view>
+</view>

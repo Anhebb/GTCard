@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "cardstyle1": "../../components/cardstyle1/cardstyle1",
+    "cardstyle2": "../../components/cardstyle2/cardstyle2"
+  },
+  "navigationBarTitleText": "点选你喜欢的样式"
+}

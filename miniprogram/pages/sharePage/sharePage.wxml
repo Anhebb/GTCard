@@ -1,0 +1,48 @@
+<view class="item-contain">
+
+    <view class="item-top">
+
+        <view class="item-card">
+           <cardstyle1 name="{{List[0].value}}" job="{{List[2].value}}" company="{{List[3].value}}" address="{{List[4].value}}" phone="{{List[1].value}}" email="{{personInfo.email}}" net="{{personInfo.website}}" photo="{{personInfo.avatarUrl}}" wx:if="{{cardstyle == '0'}}"></cardstyle1>
+            <cardstyle2 name="{{List[0].value}}" job="{{List[2].value}}" company="{{List[3].value}}" address="{{List[4].value}}" phone="{{List[1].value}}" email="{{personInfo.email}}" net="{{personInfo.website}}" photo="{{personInfo.avatarUrl}}" wx:if="{{cardstyle == '1'}}"></cardstyle2>
+        </view>
+
+        <view class="item-icon">
+          <view class="collection-card" bindtap="handleStarEvent">
+          <image src="../../images/sharePage/collection.png"></image>
+          <text>{{isStared?'取消收藏':'收藏名片'}}</text>
+          </view>
+
+          <view class="mine-card" bindtap="goToIndexPage">
+          <image src="../../images/sharePage/main.png"></image>
+          <text >我的名片</text>
+          </view>
+
+          <view class="share-card">
+          <image src="../../images/sharePage/share.png"></image>
+          <button open-type="share">分享名片</button>
+          </view>
+        </view>
+
+    </view>
+
+    <view class="item-middle">
+
+        <view class="Info-tltle">
+          <text>个人信息</text>
+        </view>
+
+        <view class="item-bottom">
+
+          <view class="edit" wx:for-items="{{List}}" wx:for-item="item" wx:key="">
+              <text space="emsp" class="edit-text">{{item.name}}</text>
+              <text  class="edit-input"  space="emsp">{{item.value}}</text>
+            
+          </view>
+        
+       </view>
+        
+    </view>
+
+    
+</view>

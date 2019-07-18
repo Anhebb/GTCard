@@ -1,0 +1,12 @@
+<view class="item-contain">
+  <view class="type1" bindtap="choose1">
+    <cardstyle1></cardstyle1>
+      <view class="type1-choose" style="display:{{type1Display}}">当前样式</view>
+  </view>
+
+
+  <view class="type2" bindtap="choose2">
+    <cardstyle2></cardstyle2>
+     <view class="type2-choose" style="display:{{type2Display}}">当前样式</view>
+  </view>
+</view>

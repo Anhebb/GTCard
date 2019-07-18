@@ -1,0 +1,61 @@
+<view class="item-contain">
+  <view class="item-head">
+    <view class="head-card" disabled="true">
+    <cardstyle1 name="{{cardInfo.name}}" job="{{cardInfo.position}}" company="{{cardInfo.company}}" address="{{cardInfo.address}}" phone="{{cardInfo.phone}}" email="{{cardInfo.email}}" net="{{cardInfo.website}}" photo="{{cardInfo.avatarUrl}}" changeable="{{changeable}}" wx:if="{{cardstyle == '0'}}"></cardstyle1>
+     <cardstyle2 name="{{cardInfo.name}}" job="{{cardInfo.position}}" company="{{cardInfo.company}}" address="{{cardInfo.address}}" phone="{{cardInfo.phone}}" email="{{cardInfo.email}}" net="{{cardInfo.website}}" photo="{{cardInfo.avatarUrl}}" changeable="{{changeable}}" wx:if="{{cardstyle == '1'}}"></cardstyle2>
+    </view>
+
+    <view class="head-bottom">
+      <view class="popularity">
+        <image src="../../images/myCardPage/fire.png"></image>
+        <text>人气 {{viewCnt}}</text>
+      </view>
+      <view class="collection">
+        <image src="../../images/myCardPage/star.png"></image>
+        <text>收藏 {{starCnt}}</text>
+      </view>
+       <view class="card-collection" bindtap="goTomyCaardColPage">
+        <image src="../../images/myCardPage/cardcollection.png" class="bottom-collection"></image>
+        <text>我的名片集</text>
+        <image src="../../images/myCardPage/arrow.png" class="bottom-arrow"></image>
+      </view>
+
+    </view>
+
+  </view>
+
+    <view class="bg"></view>
+
+  <view class="item-middle">
+    <view class="edit-card" bindtap="goTomodifyMyCard">
+      <view>
+      <image src="../../images/myCardPage/edit.png"></image>
+      <text>编辑名片</text>
+      </view>
+       <image src="../../images/myCardPage/arrow.png" class="middle-arrow"></image>
+    </view>
+
+    <view class="card-style" bindtap="goToCardTypePage">
+      <view>
+        <image src="../../images/myCardPage/style.png"></image>
+        <text>名片样式</text>
+      </view>
+    <image src="../../images/myCardPage/arrow.png" class="middle-arrow"></image>
+    </view>
+
+    <view class="card-code" bindtap="goToShareCodePage">
+      <view>
+    <image src="../../images/myCardPage/QRcode.png"></image>
+    <text>名片码</text>
+       </view>
+    <image src="../../images/myCardPage/arrow.png" class="middle-arrow"></image>
+    </view>
+  </view>
+
+  <view class="item-foot">
+      <view btn-box>
+        <button class="share-btn" bindtap="goToSharePage"> <image src="../../images/myCardPage/share.png"></image>分享名片</button>
+      </view>
+    </view>
+
+</view>

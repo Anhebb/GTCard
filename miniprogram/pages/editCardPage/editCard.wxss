@@ -1,0 +1,78 @@
+/* miniprogram/pages/editPage/editPage.wxss */
+.item-contain {
+  width: 750rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(247, 247, 247);
+}
+
+.item-top {
+  margin: 30rpx auto;
+  box-shadow: 4px 4px 15px #CCC; 
+}
+
+.item-middle {
+  display: flex;
+  width: 750rpx;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.middle-tltle {
+margin: 61rpx 30rpx 36rpx;
+}
+
+.b-tittle {
+font-size: 16px;
+font-weight: bold;
+color: #666
+}
+.s-tittle {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 14rpx;
+  color: #ccc
+}
+
+.edit {
+  border-bottom: 1rpx solid #ccc;
+  background-color: #fff;
+  width: 712rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  padding-left: 36rpx;
+  display: flex;
+  align-items: baseline
+}
+
+.edit-text {
+font-size: 28rpx;
+}
+
+.edit-input {
+  font-size: 28rpx;
+  margin-left: 60rpx;
+  margin-top: 20rpx;
+  display: inline-block;
+}
+.must {
+  color: red
+}
+
+.item-btn {
+  color: #fff;
+  margin: 50rpx 185rpx;
+  width:400rpx;
+  height:100rpx;
+  background-color: #F8A73C;
+  box-shadow:0px 0px 30rpx 0px rgba(183, 20, 113, 0.35);
+  border-radius:44rpx;
+  line-height: 100rpx;
+  align-items: center;
+}
+
+.form-width {
+width: 748rpx;
+}
